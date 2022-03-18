@@ -35,6 +35,7 @@ deliverables: "1 HTML file, 1 CSS file"
   — add `background-color: #b58900;`
 8. Use an adjacent selector to get the `strong` inside `.dfn`, the strong that starts “Botanically…”
   — add `color: #fff;`
+
 9. Select all the `a` tags, but not the `a` tags with the class of `.no-highlight`
   — add `background-color: #719e07;`
 10. Select the link with `rel="external"` attribute

@@ -10,11 +10,11 @@ body {
   background-color: #fdf6e3;
 }
 
-header{
+header {
   font-size: 1.5rem;
 }
 
-nav a{
+nav ul {
   font-family: sans-serif;
 }
 
@@ -26,6 +26,42 @@ nav a{
   background-color: #eee8d5;
 }
 
-.contents, favs, facts, types {
+.id {
   color: #93a1a1;
+}
+
+.wrapper dfn {
+  background-color: #b58900;
+}
+
+.dfn strong {
+  color: #fff;
+}
+
+a {
+  background-color: #719e07;
+}
+
+.external {
+  background-color: #2694d8;
+}
+
+li:first-child {
+  color: #719e47;
+}
+
+li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
 }
